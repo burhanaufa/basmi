@@ -1,0 +1,88 @@
+@media (max-width: 1439px) {
+  /* Blog layout: Excerpt */
+  .post_layout_excerpt.sticky {
+    padding: 3.4em 3.2em 3.2em 3.2em;
+  }
+}
+
+@media (max-width: 1279px) {
+  /* Blog layout: Excerpt */
+  .post_layout_excerpt .post_header .post_price {
+    font-size: 2em;
+    line-height: 1.5em;
+  }
+  .post_layout_excerpt.sticky {
+    padding: 3em 3em;
+  }
+  .post_layout_excerpt .post_title {
+    font-size: 2.28571rem;
+    line-height: 2.92857rem;
+  }
+  .post_layout_excerpt.post_item .slider_pagination_wrap {
+    display: block;
+  }
+  .post_layout_excerpt.post_item .slider_controls_wrap {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) {
+  /* Blog layout: Excerpt */
+  .post_layout_excerpt .post_header + .post_content {
+    margin-top: 1em;
+  }
+  .post_layout_excerpt .post_header .post_price {
+    font-size: 1.75em;
+    line-height: 1.5em;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Blog layout: Excerpt */
+  .post_layout_excerpt + .post_layout_excerpt {
+    margin-top: 4em;
+  }
+  .post_layout_excerpt:not(.sticky) + .post_layout_excerpt:not(.sticky) {
+    padding-top: 4em;
+  }
+  .post_layout_excerpt + .post_layout_excerpt {
+    padding-top: 4em;
+  }
+  .post_layout_excerpt .post_header .post_price {
+    position: static;
+    right: auto;
+    top: auto;
+    margin-top: 0.3em;
+  }
+  .post_layout_excerpt blockquote {
+    padding: 3em 3.2em 3em 3.2em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .post_layout_excerpt .post_title {
+    font-size: 28px;
+    line-height: 37px;
+  }
+}
+
+@media (max-width: 479px) {
+  /* Blog layout: Excerpt */
+  .post_layout_excerpt.sticky {
+    padding: 2em;
+  }
+  .post_layout_excerpt .post_meta .post_meta_item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .post_layout_excerpt .post_title {
+    font-size: 22px;
+    line-height: 1.4em;
+  }
+  .post_layout_excerpt .post_meta + .post_title {
+    margin-top: 2px;
+  }
+  .post_layout_excerpt.post_item .more-link {
+    margin-top: 1.6em;
+  }
+}
+/*# sourceMappingURL=excerpt-responsive.css.map */

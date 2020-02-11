@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA;qCACqC",
+    "sources": [
+        "skin-responsive.scss",
+        "../../css/_mixins.scss",
+        "../../css/_theme-vars.scss"
+    ],
+    "names": [],
+    "file": "skin-responsive.css"
+}

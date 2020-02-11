@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAIA,MAAM,EAAE,SAAS,EAAE,MAAM;EACxB,yBAAyB",
+    "sources": [
+        "custom-responsive.scss",
+        "../../css/_mixins.scss",
+        "../../css/_theme-vars.scss"
+    ],
+    "names": [],
+    "file": "custom-responsive.css"
+}

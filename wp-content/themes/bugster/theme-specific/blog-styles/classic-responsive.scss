@@ -1,0 +1,72 @@
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+//@mixin blog_styles_classic--xl() {
+@media #{$media_xl} {
+	/* Blog layout: Classic */
+	.post_layout_classic .post_content {
+		font-size:1em;
+	}
+	.post_layout_classic .post_meta .post_meta_item {
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	.post_layout_classic .post_header + .post_content {
+		padding-top: 0.3em;
+	}
+	.post_layout_classic_3.format-audio .post_featured.without_thumb .post_audio:not(.with_iframe), 
+	.post_layout_classic_3 .sc_layouts_blog_item_featured .post_featured.without_thumb .post_audio:not(.with_iframe) {
+		padding: 2em 2em;
+	}
+}
+
+//@mixin blog_styles_classic--lg() {
+@media #{$media_lg} {
+	/* Blog layout: Classic */
+	.post_layout_classic.format-audio .post_featured.without_thumb .post_audio:not(.with_iframe), 
+	.post_layout_classic .sc_layouts_blog_item_featured .post_featured.without_thumb .post_audio:not(.with_iframe) {
+		padding: 2em 1.5em;
+	}
+	.post_layout_classic .slider_container.slider_controls_side .slider_controls_wrap > a {
+		height: 55px;
+		width: 55px;
+		line-height: 55px;
+	}
+	.post_layout_classic .post_title {
+		font-size: 22px;
+	}
+}
+
+//@mixin blog_styles_classic--md() {
+@media #{$media_md} {
+	/* Blog layout: Classic */
+	.post_layout_classic.post_item .slider_pagination_wrap {
+		display: block;
+	}
+	.post_layout_classic blockquote p {
+		font-size: 15px;
+	}
+	.post_layout_classic blockquote > a, .post_layout_classic blockquote > p > a,
+	.post_layout_classic blockquote > cite, .post_layout_classic blockquote > p > cite {
+		font-size: 13px;
+	}
+	.post_layout_classic .swiper-container-horizontal > .swiper-pagination,
+	.post_layout_classic .slider_outer > .swiper-pagination {
+		bottom: 6px;
+	}
+	.post_layout_classic .slider_container .swiper-pagination-bullet, 
+	.post_layout_classic .slider_outer .swiper-pagination-bullet {
+		@include square(6px);
+		border-width: 1px;
+	}
+	.post_layout_classic.format-audio .post_featured.with_thumb .post_audio {
+		bottom: 1em;
+	}
+	.blog_style_classic_2 .columns_wrap.columns_padding_bottom > [class*="column-"],
+	.blog_style_classic_3 .columns_wrap.columns_padding_bottom > [class*="column-"] {
+		padding-bottom: 30px;
+	}
+	.blog_style_classic_3 .column-1_3 {
+		width: 50%;
+	}
+}

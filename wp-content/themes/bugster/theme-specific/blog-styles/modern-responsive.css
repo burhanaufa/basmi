@@ -1,0 +1,138 @@
+@media (max-width: 1679px) {
+  /* Blog layout: Modern */
+  .post_layout_modern .post_container_featured {
+    min-width: auto;
+  }
+}
+
+@media (max-width: 1439px) {
+  /* Blog layout: Modern */
+  .post_layout_modern .post_container_content {
+    padding-top: 0.14286rem;
+    padding-right: 2.85714rem;
+  }
+  .post_layout_modern .post_container_featured .slider_container:not(.slider_multi):not(.slider_type_images),
+  .post_layout_modern .post_container_featured .slider_container:not(.slider_multi):not(.slider_type_images) .slider-slide {
+    min-height: 17.35714rem;
+  }
+  .post_layout_modern.post_format_gallery .post_container_featured {
+    max-width: 17.35714rem;
+  }
+}
+
+@media (max-width: 1279px) {
+  /* Blog layout: Modern */
+  .post_layout_modern .post_header .post_price {
+    font-size: 2em;
+    line-height: 1.5em;
+  }
+  .post_layout_modern.sticky {
+    padding: 3em 3em;
+  }
+  .post_layout_modern .post_title {
+    font-size: 2.28571rem;
+    line-height: 2.92857rem;
+  }
+  .post_layout_modern.post_item .slider_pagination_wrap {
+    display: block;
+  }
+  .post_layout_modern.post_item .slider_controls_wrap {
+    display: none;
+  }
+  .post_layout_modern .post_container_featured .slider_container:not(.slider_multi):not(.slider_type_images),
+  .post_layout_modern .post_container_featured .slider_container:not(.slider_multi):not(.slider_type_images) .slider-slide {
+    min-height: 15.07143rem;
+  }
+  .post_layout_modern.post_format_gallery .post_container_featured {
+    max-width: 15.07143rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  /* Blog layout: Modern */
+  .post_layout_modern .post_header + .post_content {
+    margin-top: 1em;
+  }
+  .post_layout_modern .post_header .post_price {
+    font-size: 1.75em;
+    line-height: 1.5em;
+  }
+  .post_layout_modern .post_container_featured .slider_container:not(.slider_multi):not(.slider_type_images),
+  .post_layout_modern .post_container_featured .slider_container:not(.slider_multi):not(.slider_type_images) .slider-slide {
+    min-height: 17.21429rem;
+  }
+  .post_layout_modern.post_format_gallery .post_container_featured {
+    max-width: 17.21429rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Blog layout: Modern */
+  .post_layout_modern + .post_layout_modern {
+    margin-top: 4em;
+  }
+  .post_layout_modern + .post_layout_modern {
+    padding-top: 4em;
+  }
+  .post_layout_modern .post_header .post_price {
+    position: static;
+    right: auto;
+    top: auto;
+    margin-top: 0.3em;
+  }
+  .post_layout_modern blockquote {
+    padding: 3em 3.2em 3em 3.2em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .post_layout_modern.has-post-thumbnail,
+  .post_layout_modern.format-video,
+  .post_layout_modern.format-gallery {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .post_layout_modern .post_container_featured {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+  .post_layout_modern .post_container_featured {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .post_layout_modern .post_container_content {
+    width: 100%;
+    padding: 0;
+  }
+  .post_layout_modern .post_container_featured .slider_container:not(.slider_multi):not(.slider_type_images),
+  .post_layout_modern .post_container_featured .slider_container:not(.slider_multi):not(.slider_type_images) .slider-slide {
+    min-height: auto;
+  }
+  .post_layout_modern.post_format_gallery .post_container_featured {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 479px) {
+  /* Blog layout: Modern */
+  .post_layout_modern.sticky {
+    padding: 2em;
+  }
+  .post_layout_modern .post_meta .post_meta_item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .post_layout_modern .post_title {
+    font-size: 22px;
+    line-height: 1.4em;
+  }
+  .post_layout_modern .post_meta + .post_title {
+    margin-top: 2px;
+  }
+  .post_layout_modern.post_item .more-link {
+    margin-top: 1.6em;
+  }
+}
+/*# sourceMappingURL=modern-responsive.css.map */

@@ -1,0 +1,93 @@
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+//@mixin blog_styles_excerpt--xl() {
+@media #{$media_xl} {
+	/* Blog layout: Excerpt */
+	.post_layout_excerpt.sticky {
+		padding: 3.4em 3.2em 3.2em 3.2em;
+	}
+}
+
+//@mixin blog_styles_excerpt--lg() {
+@media #{$media_lg} {
+	/* Blog layout: Excerpt */
+	.post_layout_excerpt .post_header .post_price {
+		@include font(2em, 1.5em);
+	}
+	.post_layout_excerpt.sticky {
+		padding: 3em 3em;
+	}
+	.post_layout_excerpt .post_title {
+		font-size: rem(32px);
+		line-height: rem(41px);
+	}
+	.post_layout_excerpt.post_item .slider_pagination_wrap {
+		display: block;
+	}
+	.post_layout_excerpt.post_item .slider_controls_wrap {
+		display: none;
+	}
+}
+
+//@mixin blog_styles_excerpt--md() {
+@media #{$media_md} {
+	/* Blog layout: Excerpt */
+	.post_layout_excerpt .post_header + .post_content {
+		margin-top: 1em;
+	}
+	.post_layout_excerpt .post_header .post_price {
+		@include font(1.75em, 1.5em);
+	}
+}
+
+//@mixin blog_styles_excerpt--sm() {
+@media #{$media_sm} {
+	/* Blog layout: Excerpt */
+	.post_layout_excerpt + .post_layout_excerpt {
+		margin-top: 4em;
+	}
+	.post_layout_excerpt:not(.sticky) + .post_layout_excerpt:not(.sticky) {
+		padding-top: 4em;
+	}
+	.post_layout_excerpt + .post_layout_excerpt {
+		padding-top: 4em;
+	}
+	.post_layout_excerpt .post_header .post_price {
+		position:static;
+		right: auto;
+		top: auto;
+		margin-top:0.3em;
+	}
+	.post_layout_excerpt blockquote {
+		padding: 3em 3.2em 3em 3.2em;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.post_layout_excerpt .post_title {
+		font-size: 28px;
+		line-height: 37px;
+	}
+}
+
+//@mixin blog_styles_excerpt--xs() {
+@media #{$media_xs} {
+	/* Blog layout: Excerpt */
+	.post_layout_excerpt.sticky {
+		padding: 2em;
+	}
+	.post_layout_excerpt .post_meta .post_meta_item {
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	.post_layout_excerpt .post_title {
+		font-size: 22px;
+		line-height: 1.4em;
+	}
+	.post_layout_excerpt .post_meta + .post_title {
+		margin-top: 2px;
+	}
+	.post_layout_excerpt.post_item .more-link {
+		margin-top: 1.6em;
+	}
+}

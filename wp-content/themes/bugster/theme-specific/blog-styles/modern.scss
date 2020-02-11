@@ -1,0 +1,95 @@
+/* Blog layout: Excerpt 
+------------------------- */
+
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+.post_layout_modern {
+	position:relative;
+	margin-bottom:0;
+}
+.post_layout_modern.has-post-thumbnail,
+.post_layout_modern.format-video,
+.post_layout_modern.format-gallery {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.post_layout_modern .post_container_featured {
+    order: 1;
+    width: 36%;
+    min-width: rem(285px);
+}
+.post_layout_modern .post_container_featured .post_featured {
+    margin-bottom: 0;
+    width: 100%;
+}
+.post_layout_modern .post_container_content {
+    width: 64%;
+    padding-right: rem(50px);
+    padding-top: rem(4px);
+}
+.post_layout_modern .post_container_featured .slider_container:not(.slider_multi):not(.slider_type_images), 
+.post_layout_modern .post_container_featured .slider_container:not(.slider_multi):not(.slider_type_images) .slider-slide {
+    min-height: rem(285px);
+}
+.post_layout_modern .post_container_featured .slider_outer_controls_side .slider_controls_wrap > a,
+.post_layout_modern .post_container_featured .slider_container.slider_controls_side .slider_controls_wrap > a {
+    height: rem(48px);
+    width: rem(48px);
+    line-height: rem(48px);
+    font-size: rem(11px);
+}
+
+.post_layout_modern + .post_layout_modern {
+	margin-top: 4.2rem;
+}
+.post_layout_modern + .post_layout_modern {
+	padding-top: 4.2rem;
+	border-top: 4px solid #eee;
+}
+.sc_blogger .post_layout_modern:last-child {
+    padding-bottom: 2.9rem; 
+    border-bottom: 4px solid #eee;
+}
+.sc_blogger .post_layout_modern + .post_layout_modern {
+    margin-top: 2.9rem;
+    padding-top: 2.7rem;
+}
+.post_layout_modern.sticky {
+	padding: 3.9em 3.7em 3.7em 3.7em;
+}
+.post_layout_modern .post_featured {
+	display: inline-block;
+}
+.post_layout_modern.post_format_audio .post_featured.without_thumb,
+.post_layout_modern.post_format_gallery .post_featured.without_thumb {
+	display:block;
+}
+.post_layout_modern .post_header {
+	margin: 0;
+	position:relative;
+}
+.post_layout_modern .post_header .post_price {
+	width: auto;
+	@include abs-rt;
+	@include font(2.5em, 1.5em);
+}
+.post_layout_modern .post_title {
+	margin: 0;
+	font-size: rem(36px);
+    line-height: rem(45px);
+    text-transform: uppercase;
+}
+.post_meta + .post_title {
+    margin-top: rem(18px);
+}
+.post_layout_modern .post_header + .post_content {
+	margin-top:0.8rem;
+}
+
+// First post large in the Classic and Masonry
+body[class*="blog_style_classic"] .post_layout_modern,
+body[class*="blog_style_masonry"] .post_layout_modern {
+	margin-bottom: 3em;
+}

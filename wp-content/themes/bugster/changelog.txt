@@ -1,0 +1,14 @@
+Version  1.0.1
+    Added:
+       - WooCommerce plugin compatibility
+
+    Fixed:
+        - Improve WordPress 5.2.3 compatibility
+        - Update plugins to their latest versions
+
+    Changed:
+        - Update demo data
+
+Version 1.0
+
+     - Release

@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA;0BAC0B",
+    "sources": [
+        "skin.scss",
+        "../../css/_mixins.scss",
+        "../../css/_theme-vars.scss"
+    ],
+    "names": [],
+    "file": "skin.css"
+}

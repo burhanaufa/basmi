@@ -1,0 +1,367 @@
+@media (max-width: 1439px) {
+  /* Elementor */
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1130px;
+  }
+  .body_style_boxed .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1050px;
+  }
+  /* Default Elementor's grid */
+  .elementor-column-gap-narrow > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .elementor-column-gap-extended > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .elementor-column-gap-wide > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .elementor-column-gap-wider > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  /* Stretch rows (like VC) on pages without sidebar */
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow {
+    width: 1110px;
+  }
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default {
+    width: 1120px;
+  }
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended {
+    width: 1130px;
+  }
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide {
+    width: 1140px;
+  }
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider {
+    width: 1160px;
+  }
+  /* Pages with sidebar */
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow {
+    width: 724.52991px;
+  }
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default {
+    width: 734.52991px;
+  }
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended {
+    width: 744.52991px;
+  }
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide {
+    width: 754.52991px;
+  }
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider {
+    width: 774.52991px;
+  }
+}
+
+@media (max-width: 1279px) {
+  /* Elementor */
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 994px;
+  }
+  .body_style_boxed .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 994px;
+  }
+  /* Default Elementor's grid */
+  .elementor-column-gap-narrow > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .elementor-column-gap-extended > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .elementor-column-gap-wide > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .elementor-column-gap-wider > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  /* Stretch rows (like VC) on pages without sidebar */
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow {
+    width: 974px;
+  }
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default {
+    width: 984px;
+  }
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended {
+    width: 994px;
+  }
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide {
+    width: 1004px;
+  }
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider {
+    width: 1024px;
+  }
+  /* Pages with sidebar */
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow {
+    width: 636.18803px;
+  }
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default {
+    width: 646.18803px;
+  }
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended {
+    width: 656.18803px;
+  }
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide {
+    width: 666.18803px;
+  }
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider {
+    width: 686.18803px;
+  }
+  .elementor-custom-embed-play i {
+    height: 5.71429rem;
+    width: 5.71429rem;
+    font-size: 2.21429rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  /* Elementor */
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 738px;
+  }
+  .body_style_boxed .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 738px;
+  }
+  /* Default Elementor's grid */
+  .elementor-column-gap-narrow > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .elementor-column-gap-extended > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .elementor-column-gap-wide > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .elementor-column-gap-wider > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  /* Stretch rows (like VC) on pages without sidebar */
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow {
+    width: 718px;
+  }
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default {
+    width: 728px;
+  }
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended {
+    width: 738px;
+  }
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide {
+    width: 748px;
+  }
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider {
+    width: 768px;
+  }
+  /* Pages with sidebar */
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow {
+    width: 718px;
+  }
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default {
+    width: 728px;
+  }
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended {
+    width: 738px;
+  }
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide {
+    width: 748px;
+  }
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider {
+    width: 768px;
+  }
+  .elementor-custom-embed-play i {
+    height: 5rem;
+    width: 5rem;
+  }
+  .eicon-play:before {
+    -webkit-transform: translate(4px, 0);
+            transform: translate(4px, 0);
+  }
+  .elementor-progress-wrapper {
+    height: 4px;
+  }
+  .elementor-progress-percentage {
+    font-size: 14px;
+    height: 26px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Elementor */
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 460px;
+  }
+  .body_style_boxed .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 460px;
+  }
+  /* Default Elementor's grid */
+  .elementor-column-gap-narrow > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .elementor-column-gap-extended > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .elementor-column-gap-wide > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .elementor-column-gap-wider > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /* Stretch rows (like VC) on pages without sidebar */
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow {
+    width: 448px;
+  }
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default {
+    width: 450px;
+  }
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended {
+    width: 460px;
+  }
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide {
+    width: 470px;
+  }
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider {
+    width: 480px;
+  }
+}
+
+@media (max-width: 479px) {
+  /* Elementor */
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 300px;
+  }
+  .body_style_boxed .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 300px;
+  }
+  /* Default Elementor's grid */
+  .elementor-column-gap-narrow > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .elementor-column-gap-extended > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .elementor-column-gap-wide > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .elementor-column-gap-wider > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /* Stretch rows (like VC) on pages without sidebar */
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow {
+    width: 288px;
+  }
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default {
+    width: 290px;
+  }
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended {
+    width: 300px;
+  }
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide {
+    width: 310px;
+  }
+  .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider,
+  .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider,
+  .sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider {
+    width: 320px;
+  }
+  .elementor-custom-embed-play i {
+    height: 4.28571rem;
+    width: 4.28571rem;
+  }
+}
+/*# sourceMappingURL=elementor-responsive.css.map */
